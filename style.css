@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 70px;
+}
+:root {
+  --clr-100: hsl(35, 77%, 62%);
+}
+@media (max-width: 390px) {
+  body{
+    padding: 0%;
+    margin: 0%;
+  }
+  /* first-section */
+  .close{
+    display: none;
+  }
+  .image-one img{
+    display: none;
+  }
+ 
+  .menu {
+  }
+  .primary-navigation ul,
+  li,
+  a {
+  }
+  .section-one {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-one img {
+    width: 15%;
+  }
+
+  /* second-section */
+  .second-content {
+   
+  }
+  .second-section img {
+    width: 70%;
+  }
+  .second-content {
+    width: 100%;
+   
+  }
+  .primary-heading h1{
+    font-size: 20%;
+  }
+  /* Forth-section */
+ .forth-section{
+  display: none;
+ }
+}
+
+/* first-section */
+.close{
+  display: none;
+}
+.hamberger{
+  display: none;
+}
+.section-one {
+  display: flex;
+  justify-content: space-between;
+}
+.primary-navigation ul,
+li,
+a {
+  display: inline-block;
+  gap: 50%;
+  list-style: none;
+  text-decoration: none;
+  padding: 4px;
+}
+.primary-navigation,
+li,
+a:hover {
+  color: var(--clr-100);
+}
+/* second-section */
+
+.second-image img{
+  display: none;
+}
+.second-section {
+  display: flex;
+}
+.primary-heading h1 {
+  width: 300px;
+  font-size: 60px;
+  /* margin-top: 10px; */
+}
+.primary-content p {
+  width: 340px;
+  opacity: 0.7;
+  line-height: 28px;
+}
+.primary-content button {
+  background-color: black;
+  color: white;
+  padding: 20px 30px;
+  font-weight: bold;
+  border: none;
+
+  letter-spacing: 4px;
+  margin-top: 30px;
+}
+.second-section img {
+  width: 96%;
+  padding-top: 30px;
+}
+.second-section {
+
+  margin: 0;
+}
+.second-content {
+  background-color: black;
+  color: white;
+  width: 59%;
+  margin-top: 30px;
+  padding: 20px;
+}
+.second-content h3:hover {
+  color: var(--clr-100);
+  cursor: pointer;
+}
+.second-content p {
+  opacity: 0.7;
+}
+.second-content h1 {
+  color: var(--clr-100);
+}
+.primary-heading-one {
+  display: flex;
+  gap: 5%;
+  margin-top: -150px;
+}
+.second-section-all {
+  display: flex;
+}
+
+/* Forth-section */
+
+.forth-section {
+  display: flex;
+}
+.forth-section img {
+  width: 80%;
+}
+.forth-section span {
+  opacity: 0.2;
+  font-size: 30px;
+  font-weight: bold;
+}
+.forth-section h4:hover {
+  color: var(--clr-100);
+  cursor: pointer;
+}
+
+.forth-section p {
+  opacity: 0.7;
+}
+.forth-section-div-one p {
+  width: 230px;
+}
